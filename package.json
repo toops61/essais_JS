@@ -1,0 +1,12 @@
+{
+  "name": "essais_js",
+  "version": "1.0.0",
+  "description": "exercices de JavaScript pour cours OC",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "author": "Toops",
+  "license": "ISC"
+}
