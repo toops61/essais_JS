@@ -1,6 +1,15 @@
 main {
     width: 80%;
-    margin: 1rem auto;
+    margin: 0 auto;
+}
+
+#header1 {
+    border: solid $third-color;
+}
+
+#header1::before {
+    @include icon("\f078", 1em);
+    margin-right: 1rem;
 }
 
 .favorite {
@@ -23,6 +32,27 @@ main {
     }  
 }
 
-aside img {
-    width: 10rem;
+aside {
+    margin: 1rem auto;
+    width: 80%;
+    max-width: 36rem;
+    border: solid $third-color;
+    @include mobile-version {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.infos {
+    height: 10rem;
+    overflow: hidden;
+    white-space: nowrap;
+    p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }

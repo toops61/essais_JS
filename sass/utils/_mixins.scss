@@ -19,8 +19,14 @@
     align-items: center;
 }
 
-@mixin desktop-version {
-    @media screen and (min-width:$breakpoint-ipad) {
+@mixin mobile-version {
+    @media screen and (max-width:$breakpoint-mobile) {
+        @content;
+    }
+}
+
+@mixin tablette-version {
+    @media screen and (max-width:$breakpoint-ipad) {
         @content;
     }
 }

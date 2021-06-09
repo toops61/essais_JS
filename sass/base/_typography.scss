@@ -29,10 +29,20 @@ body {
   color: $third-color;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 p {
   text-align: justify;
+  margin: 0;
 }
 
 h1, h2, h3 {
   text-align: center;
+}
+
+footer h2 {
+  font-size: 1.4rem;
 }
