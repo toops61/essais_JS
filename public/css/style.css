@@ -1,7 +1,13 @@
+@charset "UTF-8";
 body {
   min-width: 320px;
   max-width: 1920px;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 @font-face {
@@ -20,9 +26,81 @@ body {
   src: url("../fonts/fa-regular-400.eot");
   src: url("../fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-regular-400.woff2") format("woff2"), url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.ttf") format("truetype"), url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
 }
+@font-face {
+  font-family: "Font Awesome 5 brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/fa-brands-400.eot");
+  src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.ttf") format("truetype"), url("../fonts/fa-brands-400.svg#fontawesome") format("svg");
+}
 .container {
-  background-color: #ababe4;
-  border: solid red;
+  background-color: #c5ffc3;
+  border: solid #1b9217;
+}
+
+footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #c5ffc3;
+  border: solid #035d00;
+}
+
+.reseaux {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid;
+  margin: 1rem auto;
+}
+
+#twitter, #facebook, #instagram {
+  padding-right: 1rem;
+  border: solid #1b9217;
+}
+
+#twitter h2::before {
+  content: "";
+  font-family: "Font Awesome 5 brands";
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #035d00;
+  margin: 1rem;
+}
+
+#facebook h2::before {
+  content: "";
+  font-family: "Font Awesome 5 brands";
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #035d00;
+  margin: 1rem;
+}
+
+#instagram h2::before {
+  content: "";
+  font-family: "Font Awesome 5 brands";
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  color: #035d00;
+  margin: 1rem;
+}
+
+header {
+  border: solid #035d00;
 }
 
 /*# sourceMappingURL=style.css.map */

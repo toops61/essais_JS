@@ -25,6 +25,19 @@
     }
 }
 
+@mixin iconBrands ($content: "\f09a", $font-size: 1.4em) {
+    content: $content;
+    font-family: 'Font Awesome 5 brands';
+    font-weight: 400;
+    font-size: $font-size;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: $third-color;
+    margin: 1rem;
+}
+
 @mixin icon ($content: "\f3cd", $font-size: 1.4em) {
     content: $content;
     font-family: 'Font Awesome 5';
@@ -34,6 +47,5 @@
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
-    color: grey;
+    color: $third-color;
 }
-

@@ -1,0 +1,32 @@
+footer {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: $primary-color;
+    border: solid $third-color;
+}
+
+.reseaux {
+    width: 80%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: solid;
+   margin: 1rem auto;
+}
+
+#twitter, #facebook, #instagram {
+    padding-right: 1rem;
+    border: solid $secondary-color;
+}
+
+#twitter h2::before {
+    @include iconBrands ("\f081", 2rem);
+}
+
+#facebook h2::before {
+    @include iconBrands ("\f09a", 2rem);
+}
+
+#instagram h2::before {
+    @include iconBrands ("\e055", 2rem);
+}
