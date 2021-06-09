@@ -1,0 +1,28 @@
+main {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.favorite {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &__star {
+        position: relative;
+        width: 1.6rem;
+        height: 1.6rem;
+        &::before {
+            @include iconEmpty;
+        }
+        &:active {
+            &::before {
+                position: absolute;
+                @include icon;
+            }
+        }
+    }  
+}
+
+aside img {
+    width: 10rem;
+}

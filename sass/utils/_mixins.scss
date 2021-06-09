@@ -38,7 +38,19 @@
     margin: 1rem;
 }
 
-@mixin icon ($content: "\f3cd", $font-size: 1.4em) {
+@mixin iconEmpty ($content: "\f005", $font-size: 1.4em) {
+    content: $content;
+    font-family: 'Font Awesome 5 empty';
+    font-weight: 400;
+    font-size: $font-size;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: $third-color;
+}
+
+@mixin icon ($content: "\f005", $font-size: 1.4em) {
     content: $content;
     font-family: 'Font Awesome 5';
     font-weight: 900;
@@ -48,4 +60,14 @@
     text-rendering: auto;
     line-height: 1;
     color: $third-color;
+}
+
+@mixin btn {
+    width: auto;
+    height: 3rem;
+    border-radius: 30px;
+    color: $third-color;
+    display: flex;
+    align-items: center;
+    border: solid $third-color;
 }
