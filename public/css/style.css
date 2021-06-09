@@ -1,6 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
+  min-width: 320px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 @font-face {
@@ -20,7 +21,8 @@ body {
   src: url("../fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-regular-400.woff2") format("woff2"), url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.ttf") format("truetype"), url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 .container {
-  background-color: blue;
+  background-color: #ababe4;
+  border: solid red;
 }
 
 /*# sourceMappingURL=style.css.map */
