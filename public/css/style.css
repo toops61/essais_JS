@@ -66,6 +66,18 @@ footer h2 {
   color: #c5ffc3;
   border-radius: 30px;
 }
+@media screen and (max-width: 768px) {
+  .bataille-btn {
+    left: 1rem;
+    top: 0.3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .bataille-btn {
+    left: 4rem;
+    top: 16rem;
+  }
+}
 .bataille-btn:hover {
   box-shadow: 0 0 20px 5px #1b9217;
 }
@@ -264,6 +276,17 @@ aside img {
   border-radius: 30px;
   border: solid #035d00;
 }
+@media screen and (max-width: 768px) {
+  #batailleBourrins {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  #batailleBourrins {
+    width: 10rem;
+    height: 16rem;
+  }
+}
 #batailleBourrins__laChose {
   position: absolute;
   top: 0.5rem;
@@ -271,6 +294,11 @@ aside img {
 }
 #batailleBourrins span {
   margin: 0.7rem;
+}
+@media screen and (max-width: 400px) {
+  #batailleBourrins span {
+    margin: 0.3rem;
+  }
 }
 #batailleBourrins:hover {
   box-shadow: 0 0 20px 5px #1b9217;
