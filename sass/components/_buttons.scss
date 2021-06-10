@@ -1,10 +1,16 @@
 .bataille-btn {
-    @include btn;
     width: 5rem;
     height: 2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     right: 1rem;
     bottom: 1rem;
+    background: linear-gradient(-40deg, $secondary-color, $third-color, $secondary-color);
+    color: $primary-color;
+    border-radius: 30px;
+    &:hover {
+        box-shadow: 0 0 20px 5px $secondary-color;
+    }
   }

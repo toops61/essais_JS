@@ -54,20 +54,20 @@ footer h2 {
 }
 
 .bataille-btn {
-  width: auto;
-  height: 3rem;
-  border-radius: 30px;
-  color: #035d00;
-  display: flex;
-  align-items: center;
-  border: solid #035d00;
   width: 5rem;
   height: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: absolute;
   right: 1rem;
   bottom: 1rem;
+  background: linear-gradient(-40deg, #1b9217, #035d00, #1b9217);
+  color: #c5ffc3;
+  border-radius: 30px;
+}
+.bataille-btn:hover {
+  box-shadow: 0 0 20px 5px #1b9217;
 }
 
 .container {
