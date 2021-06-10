@@ -1,4 +1,4 @@
-@mixin position ($top: 0px, $right: 0px) {
+@mixin position ($top: .5rem, $right: 1rem) {
     top: $top;
     right: $right;
 }

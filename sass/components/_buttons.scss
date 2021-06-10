@@ -1,0 +1,10 @@
+.bataille-btn {
+    @include btn;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+  }

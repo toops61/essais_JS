@@ -56,3 +56,24 @@ aside {
         text-overflow: ellipsis;
     }
 }
+
+#batailleBourrins {
+    background-image: url(../images/hulkChoseFilter.png);
+    background-position: center;
+    position: relative;
+    width: 30rem;
+    padding: 20px;
+    margin: 2rem auto;
+    border-radius: 30px;
+    border: solid $third-color;
+    &__laChose {
+        position: absolute;
+        @include position;
+    }
+    span {
+        margin: .7rem;
+    }
+    &:hover {
+        box-shadow: 0 0 20px 5px $secondary-color;
+    }
+}

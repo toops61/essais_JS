@@ -31,3 +31,29 @@ function infosParagraphe() {
 
 const plusInfos = document.querySelector("section.infos > h2");
 plusInfos.onclick = infosParagraphe;
+
+const hulClic = document.getElementById("batailleBourrins");
+const choseClic = document.getElementById("batailleBourrins__laChose");
+let hulCount = 0;
+hulClic.addEventListener("click", function(){
+  hulCount++;
+  document.getElementById("hulky-count").textContent = hulCount;
+});
+let choseCount = 0;
+choseClic.addEventListener("click", function(event){
+  event.stopPropagation();
+  event.preventDefault();
+  choseCount++;
+  document.getElementById("chose-count").textContent = choseCount;
+});
+const btnReset = document.createElement("p");
+btnReset.textContent = "Reset";
+btnReset.classList.add("bataille-btn");
+hulClic.appendChild(btnReset);
+btnReset.addEventListener("click", function(event){
+  event.stopPropagation();
+  hulCount = 0;
+  choseCount = 0;
+  document.getElementById("hulky-count").textContent = hulCount;
+  document.getElementById("chose-count").textContent = choseCount;
+});
