@@ -14,15 +14,32 @@
             margin: 1rem auto;
             @include btn;
             &:hover {
-                background-color: $third-color;
                 color: $primary-color;
                 box-shadow: 0 0 20px 5px $secondary-color;
+            }
+            &:nth-child(1):hover {
+                background-color: rgb(201, 0, 0);
+            }
+            &:nth-child(2):hover {
+                background-color: $twitter-color;
+            }
+            &:nth-child(3):hover {
+                background-color: $facebook-color;
+            }
+            &:nth-child(4):hover {
+                @include instagramColor;
+            }
+            &:nth-child(5):hover {
+                background-color: $linkedin-color;
+            }
+            &:nth-child(6):hover {
+                @include tiktokColor;
             }
         }
     }
 }
 
-#twitter, #facebook, #instagram, #marvel {
+#twitter, #facebook, #instagram, #marvel, #linkedin, #tiktok {
     h2 {
         margin-right: 1rem;
     }
@@ -46,4 +63,12 @@
 
 #instagram h2::before {
     @include iconBrands ("\e055", 2rem);
+}
+
+#linkedin h2::before {
+    @include iconBrands ("\f08c", 2rem);
+}
+
+#tiktok h2::before {
+    @include iconBrands ("\e07b", 2rem);
 }

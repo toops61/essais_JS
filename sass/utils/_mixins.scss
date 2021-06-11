@@ -77,3 +77,11 @@
     align-items: center;
     border: solid $third-color;
 }
+
+@mixin instagramColor {
+    background: linear-gradient(49.2deg,#f9ed32 10%,#ee2a7b 55%,#002aff);
+}
+
+@mixin tiktokColor {
+    background: linear-gradient(49.2deg,#00f2ea,#ff0050);
+}

@@ -1,11 +1,7 @@
 main {
     width: 80%;
     margin: 0 auto;
-}
-
-#header1 {
-    border: solid $third-color;
-}
+}   
 
 #header1::before {
     @include icon("\f078", 1em);
@@ -36,7 +32,6 @@ aside {
     margin: 1rem auto;
     width: 80%;
     max-width: 36rem;
-    border: solid $third-color;
     @include mobile-version {
         width: 100%;
     }
@@ -80,7 +75,7 @@ aside {
     span {
         margin: .7rem;
         @include mobile-version {
-            margin: .3rem;
+            margin: 0;
         }
     }
     &:hover {
