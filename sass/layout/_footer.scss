@@ -35,11 +35,14 @@
             &:nth-child(6):hover {
                 @include tiktokColor;
             }
+            &:nth-child(7):hover{
+                background-color: $youtube-color;
+            }
         }
     }
 }
 
-#twitter, #facebook, #instagram, #marvel, #linkedin, #tiktok {
+#twitter, #facebook, #instagram, #marvel, #linkedin, #tiktok, #youtube {
     h2 {
         margin-right: 1rem;
     }
@@ -71,4 +74,8 @@
 
 #tiktok h2::before {
     @include iconBrands ("\e07b", 2rem);
+}
+
+#youtube h2::before {
+    @include iconBrands ("\f167", 2rem);
 }
