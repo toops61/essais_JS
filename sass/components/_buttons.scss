@@ -22,3 +22,19 @@
         box-shadow: 0 0 20px 5px $secondary-color;
     }
   }
+
+  form {
+      width: 80%;
+      border: solid;
+      margin: 2rem auto;
+      div {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+      }
+  }
+  input {
+      border: solid $third-color;
+      border-radius: 30px;
+      margin-bottom: 2rem;
+  }

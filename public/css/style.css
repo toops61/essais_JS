@@ -82,6 +82,23 @@ footer h2 {
   box-shadow: 0 0 20px 5px #1b9217;
 }
 
+form {
+  width: 80%;
+  border: solid;
+  margin: 2rem auto;
+}
+form div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+input {
+  border: solid #035d00;
+  border-radius: 30px;
+  margin-bottom: 2rem;
+}
+
 .container {
   padding: 0;
 }
