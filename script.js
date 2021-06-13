@@ -57,3 +57,37 @@ btnReset.addEventListener("click", function(event){
   document.getElementById("hulky-count").textContent = hulCount;
   document.getElementById("chose-count").textContent = choseCount;
 });
+
+let inputName = document.getElementById("name").textContent;
+
+let leNombre = parseInt(10011010010100, 2);
+
+const laPhraseQuiTue = "haaa, je suis mort ! La phrase m'a tué";
+const leTableauDeLaPhraseQuiTue = laPhraseQuiTue.split(" ");
+
+let ages = [
+  {name:"michel",age:3,metier:"plombier"}, 
+  {name:"john",age:10,metier:"rappeur"},
+  {name:"trucmuch",age:18,metier:"aventurier"},
+  {name:"bidule",age:20,metier:"râpeur"},
+  {name:"encore",age:70,metier:"plombier"},
+  {name:"tout p'tit",age:5,metier:"écolier"},
+  {name:"Baptiste",age:29,metier:"plombier"},
+  {name:"Jim",age:36,metier:"plombier"},
+  {name:"Alex",age:37,metier:"plombier"}
+];
+let majeurs = [];
+let plombiers = 0;
+
+for(i=0;i<ages.length;i++){
+  if (ages[i].age >= 18) {
+    this.majeurs = majeurs.push(ages[i].name);
+    console.log(ages[i].name + " est majeur, il a " + ages[i].age + " ans");
+  } else {
+    console.log(ages[i].name + " est mineur");
+  }
+  if (ages.metier === this.plombier) {
+    plombiers++; 
+  }
+}
+console.log("il y a " + plombiers + " plombiers");
