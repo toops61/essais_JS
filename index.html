@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,7 +38,7 @@
             </section>
             <section id="batailleBourrins">
                 <a id="batailleBourrins__laChose" href="#">Cliquez ici pour la Chose</a>
-                <h2>Battle de bourrins !</h2>
+                <h2>Battle de colosses !</h2>
                 <h3>ça va CHAUFFER !!</h3>
                 <p>Cliquez n'importe où dans ce rectangle pour Hulk</p>
                 La Chose : <span id="chose-count">0</span>
@@ -47,8 +47,11 @@
             <form>
                 <h3>Inscris toi :</h3>
                 <div>
-                    <label for="name">Nom : <input type="text" name="nom" id="name"></label>
-                    <label for="age">Age : <input type="age" name="age" id="age"></label>
+                    <label for="name">Nom : <input type="text" name="nom" id="name" minlength="3" maxlength="20" required></label>
+                    <label for="age">Age : <input type="number" name="age" id="age" max="120" required></label>
+                    <div>
+                        <input type="submit" value="Envoyer">
+                    </div>
                 </div>
             </form>
         </main>

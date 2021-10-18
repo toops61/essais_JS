@@ -13,7 +13,11 @@ body {
   font-weight: 900;
   font-display: block;
   src: url("../fonts/fa-solid-900.eot");
-  src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg");
+  src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/fa-solid-900.woff2") format("woff2"),
+    url("../fonts/fa-solid-900.woff") format("woff"),
+    url("../fonts/fa-solid-900.ttf") format("truetype"),
+    url("../fonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 @font-face {
   font-family: "Font Awesome 5 empty";
@@ -21,7 +25,11 @@ body {
   font-weight: 400;
   font-display: block;
   src: url("../fonts/fa-regular-400.eot");
-  src: url("../fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-regular-400.woff2") format("woff2"), url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.ttf") format("truetype"), url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url("../fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/fa-regular-400.woff2") format("woff2"),
+    url("../fonts/fa-regular-400.woff") format("woff"),
+    url("../fonts/fa-regular-400.ttf") format("truetype"),
+    url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 @font-face {
   font-family: "Font Awesome 5 brands";
@@ -29,7 +37,11 @@ body {
   font-weight: 400;
   font-display: block;
   src: url("../fonts/fa-brands-400.eot");
-  src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.ttf") format("truetype"), url("../fonts/fa-brands-400.svg#fontawesome") format("svg");
+  src: url("../fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/fa-brands-400.woff2") format("woff2"),
+    url("../fonts/fa-brands-400.woff") format("woff"),
+    url("../fonts/fa-brands-400.ttf") format("truetype"),
+    url("../fonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 body {
   color: #035d00;
@@ -45,7 +57,9 @@ p {
   margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-align: center;
 }
 
@@ -146,7 +160,7 @@ input {
   background: linear-gradient(49.2deg, #f9ed32 10%, #ee2a7b 55%, #002aff);
 }
 .footer__reseaux a:nth-child(5):hover {
-  background-color: #007BB5;
+  background-color: #007bb5;
 }
 .footer__reseaux a:nth-child(6):hover {
   background: linear-gradient(49.2deg, #00f2ea, #ff0050);
@@ -155,10 +169,22 @@ input {
   background-color: #c4302b;
 }
 
-#twitter h2, #facebook h2, #instagram h2, #marvel h2, #linkedin h2, #tiktok h2, #youtube h2 {
+#twitter h2,
+#facebook h2,
+#instagram h2,
+#marvel h2,
+#linkedin h2,
+#tiktok h2,
+#youtube h2 {
   margin-right: 1rem;
 }
-#twitter:hover > h2::before, #facebook:hover > h2::before, #instagram:hover > h2::before, #marvel:hover > h2::before, #linkedin:hover > h2::before, #tiktok:hover > h2::before, #youtube:hover > h2::before {
+#twitter:hover > h2::before,
+#facebook:hover > h2::before,
+#instagram:hover > h2::before,
+#marvel:hover > h2::before,
+#linkedin:hover > h2::before,
+#tiktok:hover > h2::before,
+#youtube:hover > h2::before {
   color: #c5ffc3;
 }
 
